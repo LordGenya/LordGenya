@@ -146,7 +146,6 @@ def clean_container(container, page_url):
     body = clone.body or clone
     for bad in body.find_all(["script", "style", "button", "form", "noscript", "svg"]):
         bad.decompose()
-    # Remove common Wix chrome / engagement widgets.
     for el in list(body.find_all(True)):
         attrs = " ".join([str(el.get("class", "")), str(el.get("data-hook", "")), str(el.get("aria-label", ""))]).lower()
         if any(k in attrs for k in ["comment", "like-button", "share", "social", "reaction", "login", "follow"]):
@@ -165,8 +164,7 @@ def clean_container(container, page_url):
     for el in body.find_all(True):
         for attr in ["class", "style", "id", "data-hook", "data-testid", "dir"]:
             el.attrs.pop(attr, None)
-    inner = "".join(str(x) for x in body.contents).strip()
-    return inner
+    return "".join(str(x) for x in body.contents).strip()
 
 
 def plain_to_html(text):
@@ -229,7 +227,6 @@ def extract_article(url):
             if len(BeautifulSoup(candidate, "lxml").get_text(" ", strip=True)) > len(BeautifulSoup(body_html, "lxml").get_text(" ", strip=True)):
                 body_html = candidate
 
-    # Last-resort heuristic: take the largest content-like div that contains the title.
     if not body_html or len(BeautifulSoup(body_html, "lxml").get_text(" ", strip=True)) < 200:
         best = None
         best_len = 0
@@ -276,6 +273,10 @@ def parse_date(value):
     return datetime.now(timezone.utc)
 
 
+def is_importable(post):
+    return bool(post["title"] and post["author"] and post["date"] and post["text_len"] >= 300)
+
+
 def build_feed(posts):
     NS_CONTENT = "http://purl.org/rss/1.0/modules/content/"
     NS_DC = "http://purl.org/dc/elements/1.1/"
@@ -297,7 +298,7 @@ def build_feed(posts):
         guid = etree.SubElement(item, "guid", isPermaLink="true")
         guid.text = p["url"]
         etree.SubElement(item, "pubDate").text = format_datetime(parse_date(p["date"]))
-        etree.SubElement(item, f"{{{NS_DC}}}creator").text = p["author"] or "IR Insights Blog"
+        etree.SubElement(item, f"{{{NS_DC}}}creator").text = p["author"]
         etree.SubElement(item, "description").text = p["description"] or BeautifulSoup(p["body_html"], "lxml").get_text(" ", strip=True)[:400]
         content = etree.SubElement(item, f"{{{NS_CONTENT}}}encoded")
         content.text = etree.CDATA(p["body_html"])
@@ -318,7 +319,6 @@ def main():
         logs.append(f"Index crawl {base}: {len(crawled)} post URLs")
         discovered |= crawled
 
-    # Prefer canonical custom-domain URLs when duplicate Wix/custom-domain paths exist.
     by_path = {}
     for u in discovered:
         path = urlparse(u).path
@@ -350,28 +350,29 @@ def main():
         REPORT_PATH.write_text("\n".join(logs + ["No posts extracted."]), encoding="utf-8")
         raise SystemExit("No posts extracted")
 
-    FEED_PATH.write_text(build_feed(posts), encoding="utf-8")
+    importable = [p for p in posts if is_importable(p)]
+    excluded = [p for p in posts if not is_importable(p)]
+
+    FEED_PATH.write_text(build_feed(importable), encoding="utf-8")
     with CSV_PATH.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["title", "author", "date", "source_url", "body_text_chars"])
+        w.writerow(["status", "title", "author", "date", "source_url", "body_text_chars"])
         for p in sorted(posts, key=lambda x: parse_date(x["date"]), reverse=True):
-            w.writerow([p["title"], p["author"], p["date"], p["url"], p["text_len"]])
+            w.writerow(["IMPORT" if is_importable(p) else "EXCLUDED", p["title"], p["author"], p["date"], p["url"], p["text_len"]])
 
     logs.append("")
-    logs.append(f"Extracted posts: {len(posts)}")
+    logs.append(f"Extracted posts discovered: {len(posts)}")
+    logs.append(f"Posts included in feed: {len(importable)}")
+    logs.append(f"Posts excluded as incomplete: {len(excluded)}")
+    for p in excluded:
+        logs.append(f"EXCLUDED {p['title']} | {p['author']} | {p['date']} | {p['text_len']} chars | {p['url']}")
     logs.append(f"Failures: {len(failures)}")
     if failures:
         logs.append("Failure details:")
         logs.extend(f"- {u}: {e}" for u, e in failures)
     REPORT_PATH.write_text("\n".join(logs) + "\n", encoding="utf-8")
 
-    # Guard against silently publishing an obviously incomplete migration.
-    short = [p for p in posts if p["text_len"] < 300]
-    if short:
-        print("WARNING: short extracted bodies:", file=sys.stderr)
-        for p in short:
-            print(f"- {p['title']}: {p['text_len']} chars", file=sys.stderr)
-    print(f"Built {FEED_PATH} with {len(posts)} posts")
+    print(f"Built {FEED_PATH} with {len(importable)} importable posts; excluded {len(excluded)} incomplete posts")
 
 
 if __name__ == "__main__":
