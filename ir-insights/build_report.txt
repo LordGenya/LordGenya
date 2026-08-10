@@ -9,7 +9,7 @@ Unique post paths discovered: 32
 [5/32] OK Afghanistan's stabilization saga. A tale of poor governance, reckless strategy, and terrorist resilience. | Yevgen Sekretaryuk | 2024-03-18T04:36:46.102Z | 12591 chars
 [6/32] OK Maximizing Organic Waste: Anaerobic Digestion for Methane Reduction, Food, and Energy Security | Yevgen Sekretaryuk | 2024-08-30T22:44:41.320Z | 11936 chars
 [7/32] OK Eine juristisch-politische Einschätzung eines AfD-Parteiverbots | Carolina Oliviero | 2025-02-16T11:50:39.022Z | 19460 chars
-[8/32] OK Every Breath is Shorter: Fossil Fuel Emissions and the Gut-Brain Nexus | Yevgen Sekretaryuk | 2024-09-06T19:26:37.710Z | 0 chars
+[8/32] OK Every Breath is Shorter: Fossil Fuel Emissions and the Gut-Brain Nexus | Yevgen Sekretaryuk | 2024-09-06T19:26:37.710Z | 15515 chars
 [9/32] OK Guilty x 34 – What the Hush Money Process tells us about the State of American Democracy | Carolina Oliviero | 2024-06-07T13:02:47.377Z | 4787 chars
 [10/32] OK Human rights are universal...? | Yevgen Sekretaryuk | 2024-08-20T11:19:34.015Z | 9813 chars
 [11/32] OK Is the Election over now? | Carolina Oliviero | 2024-07-15T13:13:35.453Z | 3557 chars
@@ -18,7 +18,7 @@ Unique post paths discovered: 32
 [14/32] OK Populism, populism, populism. It’s a buzzword. Here is why we still need it. | Carolina Oliviero | 2024-05-03T17:05:26.352Z | 8211 chars
 [15/32] OK Populist Parties - How Democracies Can Legally Protect Themselves | Carolina Oliviero | 2024-06-21T07:01:11.583Z | 18542 chars
 [16/32] OK Re-stabilizing US Democracy – Now. | Carolina Oliviero | 2024-07-24T06:30:06.552Z | 8585 chars
-[17/32] OK revisiting-border-controls-a-democratic-dilemma |  |  | 0 chars
+[17/32] OK Revisiting unilateral border controls, a democratic dilemma? | Yevgen Sekretaryuk | 2024-03-18T04:47:43.747Z | 12868 chars
 [18/32] OK Sunny Side-Up: The Lonestar Shift From Pump Jacks to Solar Stacks | Yevgen Sekretaryuk | 2024-09-21T20:22:16.458Z | 13172 chars
 [19/32] OK The German Resistance against Overconsumption and Capitalism | Carolina Oliviero | 2024-09-12T16:09:31.650Z | 5631 chars
 [20/32] OK The Lesson France Learned from the Failure of US Democracy | Carolina Oliviero | 2025-03-31T20:40:21.013Z | 3928 chars
@@ -35,5 +35,7 @@ Unique post paths discovered: 32
 [31/32] OK Why We Should Recognize Our Food Industry as Our New Tobacco Industry | Carolina Oliviero | 2024-09-05T09:03:58.445Z | 11281 chars
 [32/32] OK Women and Water in Central Asia: The Untapped Power to Combat Climate Change | Yevgen Sekretaryuk | 2024-09-14T13:32:35.248Z | 9695 chars
 
-Extracted posts: 32
+Extracted posts discovered: 32
+Posts included in feed: 32
+Posts excluded as incomplete: 0
 Failures: 0
