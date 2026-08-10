@@ -2,6 +2,11 @@ name: Build IR Insights migration feed
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'ir-insights/build_feed.py'
+      - 'ir-insights/requirements.txt'
+      - '.github/workflows/build-ir-insights-feed.yml'
   schedule:
     - cron: '17 3 * * *'
 
