@@ -2,7 +2,7 @@ Sitemap https://gsekretaryuk2000.wixsite.com/ir-insights/sitemap.xml: 73 URLs
 Index crawl https://gsekretaryuk2000.wixsite.com/ir-insights: 4 post URLs
 Index crawl https://www.irinsightsblog.com: 0 post URLs
 Unique post paths discovered: 32
-[1/32] OK A Reflection on Democracy | Carolina Oliviero | 2024-12-02T21:02:30.788Z | 0 chars
+[1/32] OK A Reflection on Democracy | Carolina Oliviero | 2024-12-02T21:02:30.788Z | 12457 chars
 [2/32] OK A Stubborn Old Man or a Genius Master Plan? | Carolina Oliviero | 2024-07-19T06:30:28.190Z | 8352 chars
 [3/32] OK About Aristotle and Tim Walz | Carolina Oliviero | 2024-08-27T14:08:10.496Z | 5528 chars
 [4/32] OK AfD's Positioning in the EP | Carolina Oliviero | 2024-07-16T08:04:46.892Z | 1574 chars
@@ -11,12 +11,12 @@ Unique post paths discovered: 32
 [7/32] OK Eine juristisch-politische Einschätzung eines AfD-Parteiverbots | Carolina Oliviero | 2025-02-16T11:50:39.022Z | 19460 chars
 [8/32] OK Every Breath is Shorter: Fossil Fuel Emissions and the Gut-Brain Nexus | Yevgen Sekretaryuk | 2024-09-06T19:26:37.710Z | 15515 chars
 [9/32] OK Guilty x 34 – What the Hush Money Process tells us about the State of American Democracy | Carolina Oliviero | 2024-06-07T13:02:47.377Z | 4787 chars
-[10/32] OK human-rights-are-universal |  |  | 0 chars
+[10/32] OK Human rights are universal...? | Yevgen Sekretaryuk | 2024-08-20T11:19:34.015Z | 9813 chars
 [11/32] OK Is the Election over now? | Carolina Oliviero | 2024-07-15T13:13:35.453Z | 3557 chars
 [12/32] OK It Doesn't End With the Economy | Carolina Oliviero | 2024-10-30T16:41:25.238Z | 4239 chars
 [13/32] OK Orbán – The Isolated Savior | Carolina Oliviero | 2024-07-12T06:30:22.698Z | 2582 chars
 [14/32] OK Populism, populism, populism. It’s a buzzword. Here is why we still need it. | Carolina Oliviero | 2024-05-03T17:05:26.352Z | 8211 chars
-[15/32] OK Populist Parties - How Democracies Can Legally Protect Themselves | Carolina Oliviero | 2024-06-21T07:01:11.583Z | 0 chars
+[15/32] OK Populist Parties - How Democracies Can Legally Protect Themselves | Carolina Oliviero | 2024-06-21T07:01:11.583Z | 18542 chars
 [16/32] OK Re-stabilizing US Democracy – Now. | Carolina Oliviero | 2024-07-24T06:30:06.552Z | 8585 chars
 [17/32] OK Revisiting unilateral border controls, a democratic dilemma? | Yevgen Sekretaryuk | 2024-03-18T04:47:43.747Z | 12868 chars
 [18/32] OK Sunny Side-Up: The Lonestar Shift From Pump Jacks to Solar Stacks | Yevgen Sekretaryuk | 2024-09-21T20:22:16.458Z | 13172 chars
@@ -31,16 +31,11 @@ Unique post paths discovered: 32
 [27/32] OK We Must Offer More Than ERASMUS to the Youth | Carolina Oliviero | 2024-10-17T18:47:35.500Z | 4901 chars
 [28/32] OK What happened in Germany? | Carolina Oliviero | 2025-05-07T20:52:51.486Z | 3991 chars
 [29/32] OK When the Waters Rise: Valencia’s Floods and the Urgent Call for Loss and Damage Finance at COP29 | Yevgen Sekretaryuk | 2024-11-11T16:39:50.135Z | 14742 chars
-[30/32] OK Why Free Riding in Democracies is a Serious Problem | Carolina Oliviero | 2024-08-14T19:57:38.400Z | 0 chars
-[31/32] OK why-we-should-recognize-our-food-industry-as-our-new-tobacco-industry |  |  | 0 chars
+[30/32] OK Why Free Riding in Democracies is a Serious Problem | Carolina Oliviero | 2024-08-14T19:57:38.400Z | 7892 chars
+[31/32] OK Why We Should Recognize Our Food Industry as Our New Tobacco Industry | Carolina Oliviero | 2024-09-05T09:03:58.445Z | 11281 chars
 [32/32] OK Women and Water in Central Asia: The Untapped Power to Combat Climate Change | Yevgen Sekretaryuk | 2024-09-14T13:32:35.248Z | 9695 chars
 
 Extracted posts discovered: 32
-Posts included in feed: 27
-Posts excluded as incomplete: 5
-EXCLUDED A Reflection on Democracy | Carolina Oliviero | 2024-12-02T21:02:30.788Z | 0 chars | https://gsekretaryuk2000.wixsite.com/ir-insights/post/a-reflection-on-democracy
-EXCLUDED human-rights-are-universal |  |  | 0 chars | https://gsekretaryuk2000.wixsite.com/ir-insights/post/human-rights-are-universal
-EXCLUDED Populist Parties - How Democracies Can Legally Protect Themselves | Carolina Oliviero | 2024-06-21T07:01:11.583Z | 0 chars | https://gsekretaryuk2000.wixsite.com/ir-insights/post/populist-parties-how-democracies-can-legally-protect-themselves
-EXCLUDED Why Free Riding in Democracies is a Serious Problem | Carolina Oliviero | 2024-08-14T19:57:38.400Z | 0 chars | https://gsekretaryuk2000.wixsite.com/ir-insights/post/why-free-riding-in-democracies-is-a-serious-problem
-EXCLUDED why-we-should-recognize-our-food-industry-as-our-new-tobacco-industry |  |  | 0 chars | https://gsekretaryuk2000.wixsite.com/ir-insights/post/why-we-should-recognize-our-food-industry-as-our-new-tobacco-industry
+Posts included in feed: 32
+Posts excluded as incomplete: 0
 Failures: 0
