@@ -19,7 +19,7 @@ Unique post paths discovered: 32
 [15/32] OK Populist Parties - How Democracies Can Legally Protect Themselves | Carolina Oliviero | 2024-06-21T07:01:11.583Z | 18542 chars
 [16/32] OK Re-stabilizing US Democracy – Now. | Carolina Oliviero | 2024-07-24T06:30:06.552Z | 8585 chars
 [17/32] OK Revisiting unilateral border controls, a democratic dilemma? | Yevgen Sekretaryuk | 2024-03-18T04:47:43.747Z | 12868 chars
-[18/32] OK Sunny Side-Up: The Lonestar Shift From Pump Jacks to Solar Stacks | Yevgen Sekretaryuk | 2024-09-21T20:22:16.458Z | 13172 chars
+[18/32] OK Sunny Side-Up: The Lonestar Shift From Pump Jacks to Solar Stacks | Yevgen Sekretaryuk | 2024-09-21T20:22:16.458Z | 0 chars
 [19/32] OK The German Resistance against Overconsumption and Capitalism | Carolina Oliviero | 2024-09-12T16:09:31.650Z | 5631 chars
 [20/32] OK The Lesson France Learned from the Failure of US Democracy | Carolina Oliviero | 2025-03-31T20:40:21.013Z | 3928 chars
 [21/32] OK Three Lessons We Can Learn From Macron’s Gamble | Carolina Oliviero | 2024-07-09T20:32:08.884Z | 3300 chars
@@ -36,6 +36,7 @@ Unique post paths discovered: 32
 [32/32] OK Women and Water in Central Asia: The Untapped Power to Combat Climate Change | Yevgen Sekretaryuk | 2024-09-14T13:32:35.248Z | 9695 chars
 
 Extracted posts discovered: 32
-Posts included in feed: 32
-Posts excluded as incomplete: 0
+Posts included in feed: 31
+Posts excluded as incomplete: 1
+EXCLUDED Sunny Side-Up: The Lonestar Shift From Pump Jacks to Solar Stacks | Yevgen Sekretaryuk | 2024-09-21T20:22:16.458Z | 0 chars | https://gsekretaryuk2000.wixsite.com/ir-insights/post/sunny-side-up-the-lonestar-shift-from-pump-jacks-to-solar-stacks
 Failures: 0
