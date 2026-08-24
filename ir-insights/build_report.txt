@@ -28,7 +28,7 @@ Unique post paths discovered: 32
 [24/32] OK Trump’s success explained by economic losses and racism | Carolina Oliviero | 2024-05-30T21:56:48.486Z | 7014 chars
 [25/32] OK Ukraine Ratifies the Rome Statute – The 28th Member-Country-to-be? | Carolina Oliviero | 2024-08-21T14:47:40.349Z | 3719 chars
 [26/32] OK South Asia's shadows of British colonialism: the legacy of &quot;divide and rule&quot; | Yevgen Sekretaryuk | 2024-03-18T04:58:59.004Z | 11221 chars
-[27/32] OK We Must Offer More Than ERASMUS to the Youth | Carolina Oliviero | 2024-10-17T18:47:35.500Z | 4901 chars
+[27/32] OK we-must-offer-more-than-erasmus-to-the-youth |  |  | 0 chars
 [28/32] OK What happened in Germany? | Carolina Oliviero | 2025-05-07T20:52:51.486Z | 3991 chars
 [29/32] OK When the Waters Rise: Valencia’s Floods and the Urgent Call for Loss and Damage Finance at COP29 | Yevgen Sekretaryuk | 2024-11-11T16:39:50.135Z | 14742 chars
 [30/32] OK Why Free Riding in Democracies is a Serious Problem | Carolina Oliviero | 2024-08-14T19:57:38.400Z | 7892 chars
@@ -36,6 +36,7 @@ Unique post paths discovered: 32
 [32/32] OK Women and Water in Central Asia: The Untapped Power to Combat Climate Change | Yevgen Sekretaryuk | 2024-09-14T13:32:35.248Z | 9695 chars
 
 Extracted posts discovered: 32
-Posts included in feed: 32
-Posts excluded as incomplete: 0
+Posts included in feed: 31
+Posts excluded as incomplete: 1
+EXCLUDED we-must-offer-more-than-erasmus-to-the-youth |  |  | 0 chars | https://gsekretaryuk2000.wixsite.com/ir-insights/post/we-must-offer-more-than-erasmus-to-the-youth
 Failures: 0
