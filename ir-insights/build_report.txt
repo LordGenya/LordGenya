@@ -8,7 +8,7 @@ Unique post paths discovered: 32
 [4/32] OK AfD's Positioning in the EP | Carolina Oliviero | 2024-07-16T08:04:46.892Z | 1574 chars
 [5/32] OK Afghanistan's stabilization saga. A tale of poor governance, reckless strategy, and terrorist resilience. | Yevgen Sekretaryuk | 2024-03-18T04:36:46.102Z | 12591 chars
 [6/32] OK Maximizing Organic Waste: Anaerobic Digestion for Methane Reduction, Food, and Energy Security | Yevgen Sekretaryuk | 2024-08-30T22:44:41.320Z | 11936 chars
-[7/32] OK Eine juristisch-politische Einschätzung eines AfD-Parteiverbots | Carolina Oliviero | 2025-02-16T11:50:39.022Z | 19460 chars
+[7/32] OK Eine juristisch-politische Einschätzung eines AfD-Parteiverbots | Carolina Oliviero | 2025-02-16T11:50:39.022Z | 0 chars
 [8/32] OK Every Breath is Shorter: Fossil Fuel Emissions and the Gut-Brain Nexus | Yevgen Sekretaryuk | 2024-09-06T19:26:37.710Z | 15515 chars
 [9/32] OK Guilty x 34 – What the Hush Money Process tells us about the State of American Democracy | Carolina Oliviero | 2024-06-07T13:02:47.377Z | 4787 chars
 [10/32] OK Human rights are universal...? | Yevgen Sekretaryuk | 2024-08-20T11:19:34.015Z | 9813 chars
@@ -28,7 +28,7 @@ Unique post paths discovered: 32
 [24/32] OK Trump’s success explained by economic losses and racism | Carolina Oliviero | 2024-05-30T21:56:48.486Z | 7014 chars
 [25/32] OK Ukraine Ratifies the Rome Statute – The 28th Member-Country-to-be? | Carolina Oliviero | 2024-08-21T14:47:40.349Z | 3719 chars
 [26/32] OK South Asia's shadows of British colonialism: the legacy of &quot;divide and rule&quot; | Yevgen Sekretaryuk | 2024-03-18T04:58:59.004Z | 11221 chars
-[27/32] OK we-must-offer-more-than-erasmus-to-the-youth |  |  | 0 chars
+[27/32] OK We Must Offer More Than ERASMUS to the Youth | Carolina Oliviero | 2024-10-17T18:47:35.500Z | 4901 chars
 [28/32] OK What happened in Germany? | Carolina Oliviero | 2025-05-07T20:52:51.486Z | 3991 chars
 [29/32] OK When the Waters Rise: Valencia’s Floods and the Urgent Call for Loss and Damage Finance at COP29 | Yevgen Sekretaryuk | 2024-11-11T16:39:50.135Z | 14742 chars
 [30/32] OK Why Free Riding in Democracies is a Serious Problem | Carolina Oliviero | 2024-08-14T19:57:38.400Z | 7892 chars
@@ -38,5 +38,5 @@ Unique post paths discovered: 32
 Extracted posts discovered: 32
 Posts included in feed: 31
 Posts excluded as incomplete: 1
-EXCLUDED we-must-offer-more-than-erasmus-to-the-youth |  |  | 0 chars | https://gsekretaryuk2000.wixsite.com/ir-insights/post/we-must-offer-more-than-erasmus-to-the-youth
+EXCLUDED Eine juristisch-politische Einschätzung eines AfD-Parteiverbots | Carolina Oliviero | 2025-02-16T11:50:39.022Z | 0 chars | https://gsekretaryuk2000.wixsite.com/ir-insights/post/eine-juristisch-politischer-einsch%C3%A4tzung-eines-afd-parteiverbots
 Failures: 0
