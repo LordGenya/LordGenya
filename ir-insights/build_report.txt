@@ -12,7 +12,7 @@ Unique post paths discovered: 32
 [8/32] OK Every Breath is Shorter: Fossil Fuel Emissions and the Gut-Brain Nexus | Yevgen Sekretaryuk | 2024-09-06T19:26:37.710Z | 15515 chars
 [9/32] OK Guilty x 34 – What the Hush Money Process tells us about the State of American Democracy | Carolina Oliviero | 2024-06-07T13:02:47.377Z | 4787 chars
 [10/32] OK Human rights are universal...? | Yevgen Sekretaryuk | 2024-08-20T11:19:34.015Z | 9813 chars
-[11/32] OK Is the Election over now? | Carolina Oliviero | 2024-07-15T13:13:35.453Z | 0 chars
+[11/32] OK Is the Election over now? | Carolina Oliviero | 2024-07-15T13:13:35.453Z | 3557 chars
 [12/32] OK It Doesn't End With the Economy | Carolina Oliviero | 2024-10-30T16:41:25.238Z | 4239 chars
 [13/32] OK Orbán – The Isolated Savior | Carolina Oliviero | 2024-07-12T06:30:22.698Z | 2582 chars
 [14/32] OK Populism, populism, populism. It’s a buzzword. Here is why we still need it. | Carolina Oliviero | 2024-05-03T17:05:26.352Z | 8211 chars
@@ -36,7 +36,6 @@ Unique post paths discovered: 32
 [32/32] OK Women and Water in Central Asia: The Untapped Power to Combat Climate Change | Yevgen Sekretaryuk | 2024-09-14T13:32:35.248Z | 9695 chars
 
 Extracted posts discovered: 32
-Posts included in feed: 31
-Posts excluded as incomplete: 1
-EXCLUDED Is the Election over now? | Carolina Oliviero | 2024-07-15T13:13:35.453Z | 0 chars | https://gsekretaryuk2000.wixsite.com/ir-insights/post/is-the-election-over-now
+Posts included in feed: 32
+Posts excluded as incomplete: 0
 Failures: 0
