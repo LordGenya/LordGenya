@@ -1,4 +1,4 @@
-Sitemap https://gsekretaryuk2000.wixsite.com/ir-insights/sitemap.xml: 73 URLs
+Sitemap https://gsekretaryuk2000.wixsite.com/ir-insights/sitemap.xml: 75 URLs
 Index crawl https://gsekretaryuk2000.wixsite.com/ir-insights: 4 post URLs
 Index crawl https://www.irinsightsblog.com: 0 post URLs
 Unique post paths discovered: 32
